@@ -46,6 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queue\CircularQueue.cs" />
     <Compile Include="Queue\NumberOfIslands.cs" />
+    <Compile Include="Queue\OpenTheLock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
