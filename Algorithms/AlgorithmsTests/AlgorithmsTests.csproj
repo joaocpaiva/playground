@@ -48,11 +48,18 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BreadthFirstSearch\BreadthFirstSearchTests.cs" />
+    <Compile Include="DepthFirstSearch\DepthFirstSearchTests.cs" />
     <Compile Include="Queue\QueueTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stack\DailyTemperatureTests.cs" />
+    <Compile Include="Stack\StackTests.cs" />
+    <Compile Include="Stack\ValidParenthesesTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algorithms.Managed\Algorithms.Managed.csproj">

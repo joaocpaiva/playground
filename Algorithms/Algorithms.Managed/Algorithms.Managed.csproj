@@ -42,11 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DepthFirstSearch\InorderTraversal.cs" />
+    <Compile Include="DepthFirstSearch\NumberOfIslandsDFS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Queue\CircularQueue.cs" />
-    <Compile Include="Queue\NumberOfIslands.cs" />
-    <Compile Include="Queue\OpenTheLock.cs" />
+    <Compile Include="BreadthFirstSearch\NumberOfIslandsBFS.cs" />
+    <Compile Include="BreadthFirstSearch\OpenTheLock.cs" />
+    <Compile Include="BreadthFirstSearch\PerfectSquares.cs" />
+    <Compile Include="Stack\DailyTemperatures.cs" />
+    <Compile Include="Stack\MinStack.cs" />
+    <Compile Include="Stack\ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
