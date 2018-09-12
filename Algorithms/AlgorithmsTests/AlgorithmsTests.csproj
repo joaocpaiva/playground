@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="BreadthFirstSearch\BreadthFirstSearchTests.cs" />
     <Compile Include="DepthFirstSearch\DepthFirstSearchTests.cs" />
+    <Compile Include="LinkedList\ReverseLinkedListTests.cs" />
+    <Compile Include="LinkedList\OddEvenLinkedListTests.cs" />
     <Compile Include="Queue\QueueTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stack\DailyTemperatureTests.cs" />
