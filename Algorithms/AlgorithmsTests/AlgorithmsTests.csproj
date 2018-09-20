@@ -58,6 +58,7 @@
     <Compile Include="Stack\StackTests.cs" />
     <Compile Include="Stack\ValidParenthesesTests.cs" />
     <Compile Include="Tree\LevelOrderTests.cs" />
+    <Compile Include="Tree\BinaryTreeFromTraversalTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config">
