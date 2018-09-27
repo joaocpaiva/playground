@@ -46,5 +46,34 @@ namespace AlgorithmsTests.LinkedList
                 node = node.next;
             }
         }
+
+        [TestMethod]
+        public void TestReverseXNodes()
+        {
+            var root = new ListNode(1);
+            var node = root;
+            for (int i = 2; i <= 5; i++)
+            {
+                node.next = new ListNode(i);
+                node = node.next;
+            }
+
+            var ll = new ReverseLinkedList();
+            node = ll.ReverseEveryXNodes(root, 3);
+
+            Assert.AreEqual(3, node.val);
+
+            node = node.next;
+            Assert.AreEqual(2, node.val);
+
+            node = node.next;
+            Assert.AreEqual(1, node.val);
+
+            node = node.next;
+            Assert.AreEqual(4, node.val);
+
+            node = node.next;
+            Assert.AreEqual(5, node.val);
+        }
     }
 }

@@ -57,6 +57,7 @@
     <Compile Include="Stack\DailyTemperatureTests.cs" />
     <Compile Include="Stack\StackTests.cs" />
     <Compile Include="Stack\ValidParenthesesTests.cs" />
+    <Compile Include="String\ReverseWordsTests.cs" />
     <Compile Include="Tree\LevelOrderTests.cs" />
     <Compile Include="Tree\BinaryTreeFromTraversalTests.cs" />
   </ItemGroup>
